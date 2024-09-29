@@ -1,45 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>My Portfolio</h1>
+    <header>
+        <div class="container">
+            <h1>Soha Farhana</h1>
+            <p>Welcome to my portfolio! I'm a Computer Science and Data Science student.</p>
+            <button id="theme-toggle">Toggle Theme</button>
+        </div>
+    </header>
+
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
     </nav>
-    <div class="toggle-container">
-      <input type="checkbox" id="dark-mode-toggle">
-      <label for="dark-mode-toggle">Dark Mode</label>
-    </div>
-  </header>
-  <main>
-    <section class="intro">
-      <img src="images/your-photo.jpg" alt="Your Photo" class="profile-pic">
-      <h2>About Me</h2>
-      <p>Currently studying B.Tech at NIT Andhra Pradesh and Data Science at IIT Madras.</p>
-      <p>Experience: Contributor at GirlScript Summer of Code, Joint Secretary at CSEA NIT Andhra, Tutor for JEE ADVANCED, Website Developer for TEDx NIT Andhra Pradesh.</p>
-      <p>Certifications: Gold Badge in Java – HackerRank, SQL Beginner Certified - HackerRank, and more.</p>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm currently studying at NIT Andhra Pradesh with a CGPA of 8.2 and pursuing Data Science from IIT Madras with a CGPA of 9.</p>
+        <div class="institution-photos">
+            <img src="NIT-AP.jpg" alt="NIT Andhra Pradesh" />
+            <img src="IIT-M.jpg" alt="IIT Madras" />
+        </div>
     </section>
-  </main>
-  <footer>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Hand-Based Virtual Painter using OpenCV and PyTorch</li>
+            <li>Student Result Portal using Django</li>
+            <li>College Management System for NIT Andhra Pradesh</li>
+            <li>Guess the Color - ML model for color prediction</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>Contributor – GirlScript Summer of Code (May 2024 - Aug 2024)</li>
+            <li>Joint Secretary — CSEA NIT Andhra (Aug 2023 - Present)</li>
+            <li>Tutor – JEE ADVANCED (May 2024 - Present)</li>
+            <li>Website Developer - TEDx NIT Andhra Pradesh</li>
+        </ul>
+    </section>
+
     <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Email: your-email@example.com</p>
-      <p>LinkedIn: <a href="your-linkedin-url">Your LinkedIn</a></p>
-      <p>GitHub: <a href="your-github-url">Your GitHub</a></p>
-      <p>LeetCode: <a href="your-leetcode-url">Your LeetCode</a></p>
+        <h2>Contact Me</h2>
+        <p>Email: sohafarhana@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sohafarhana">sohafarhana</a></p>
+        <p>GitHub: <a href="https://github.com/SohaFarhana">SohaFarhana</a></p>
+        <p>LeetCode: <a href="https://leetcode.com/sohafarhana">sohafarhana</a></p>
     </section>
-    <p>&copy; 2024 My Portfolio</p>
-  </footer>
-  <script src="js/script.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Soha Farhana. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
